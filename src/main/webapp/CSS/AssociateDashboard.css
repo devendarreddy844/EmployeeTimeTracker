@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+    font-family: Montserrat;
+  }
+
+.main{
+    padding: 24px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.employee{
+    width: 100%;
+    padding: 24px;
+    border: solid black;
+    border-radius: 24px;
+
+}
+
+.logout{
+    background-color: rgb(178, 15, 15);
+    color: rgb(240, 241, 242);
+    border: none;
+    border-radius: 12px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.desc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.namee{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.project{
+    width: 100%;
+    padding: 24px;
+    /* border: solid black; */
+    /* border-radius: 24px; */
+
+}
+
+.adt{
+    background-color: rgb(19, 57, 145);
+    color: rgb(240, 241, 242);
+    border: none;
+    border-radius: 12px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.projn{
+    font-weight: bold ;
+    font-size:24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.tasko{
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: normal;
+}
+
+.taskso{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+}
+
+.stats a{
+	color:white;
+	text-decoration:none;
+}
